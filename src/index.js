@@ -17,7 +17,6 @@ module.exports = function check(str, bracketsConfig) {
 
       delete arrStr[indexClose];
       delete arrStr[indexOpen];
-      result = true;
 
     };
   });
